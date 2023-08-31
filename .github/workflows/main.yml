@@ -160,7 +160,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: vasilribin/taski_gateway:latest
-# Добавляем новую задачу 02:
+# Добавляем новую задачу 03:
   deploy:
     runs-on: ubuntu-latest
     needs:
